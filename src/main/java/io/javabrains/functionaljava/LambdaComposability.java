@@ -22,7 +22,7 @@ public class LambdaComposability {
 
         BiConsumer<UnaryOperator<Integer>, Integer> logger = (operation, number) -> {
             logStart.run();
-            operation.apply(number);
+            System.out.println(operation.apply(number));
             logEnd.run();
         };
 

@@ -11,7 +11,7 @@ public class LambdaExamples {
         AnotherOperation newLambda = num -> num * 2 + 124;
         System.out.println(newLambda.operation(20));
 
-        // newLambda = increment; // Will not work
+        //newLambda = increment; // Will not work
         System.out.println(newLambda.operation(20));
 
 
